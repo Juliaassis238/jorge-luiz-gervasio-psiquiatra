@@ -40,6 +40,11 @@ section{position:relative}.sobre{padding:145px 0 125px}.two-col{display:grid;gri
 .brand img{width:48px;height:48px}
 @media(max-width:900px){.brand img{width:42px;height:42px}}
 </style>
+<style>
+#float.float{position:fixed;left:50%;right:auto;bottom:22px;z-index:100;transform:translate(-50%,140px);display:block;white-space:nowrap}
+#float.float.show{transform:translate(-50%,0)}
+@media(max-width:900px){#float.float{left:50%;right:auto;bottom:18px;max-width:calc(100vw - 32px);text-align:center}}
+</style>
 </head>
 <body>
 <header id="header"><a class="brand" href="#inicio"><img src="assets/logo-jorge-gervasio.png" alt="Logo Jorge Luiz Gervásio"><span>Jorge Luiz<small>Psiquiatria</small></span></a><button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button><nav><a href="#sobre">Sobre</a><a href="#areas">Atuação</a><a href="#formacao">Formação</a><a href="#atendimento">Consultório</a><a href="#duvidas">Dúvidas</a><a href="#contato">Contato</a></nav></header>
